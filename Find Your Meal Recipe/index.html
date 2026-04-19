@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Recipe Finder</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="meal-wrapper">
+      <div class="meal-search">
+        <h2 class="title">Find Meals From Around the World</h2>
+        <div class="meal-search-box">
+          <select id="search-type" class="search-control" style="width: auto; border-radius: 2rem 0 0 2rem; border-right: none;">
+            <option value="ingredient">Ingredient</option>
+            <option value="area">Country</option>
+          </select>
+          <input type="text" class="search-control" placeholder="Search (e.g. Chicken or Turkish)" id="search-input" style="border-radius: 0;">
+          <button type="submit" class="search-btn btn" id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
 
+      <div class="meal-result">
+        <h2 class="title">Your Search Results:</h2>
+        <div id="meal"></div>
+      </div>
+
+      <div class="meal-details">
+        <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="meal-details-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
