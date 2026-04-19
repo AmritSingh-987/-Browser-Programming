@@ -10,9 +10,13 @@
 
     <header class="container">
         <h1>Weather Dashboard</h1>
-        <p>Real-time data from the Open-Meteo API.</p>
+        <p>Live meteorological data via Open-Meteo API</p>
         
-        <div class="button-group">
+        <nav>
+            <a href="index.html" style="color: inherit; font-weight: bold;">← Back to Portfolio</a>
+        </nav>
+
+        <div class="button-group" style="margin-top: 20px;">
             <button id="btnKuopio">Kuopio</button>
             <button id="btnHelsinki">Helsinki</button>
             <button id="btnOulu">Oulu</button>
@@ -25,10 +29,9 @@
             <p><strong>City:</strong> <span id="city">-</span></p>
             <p><strong>Temperature:</strong> <span id="temperature">-</span></p>
             <p><strong>Wind Speed:</strong> <span id="wind">-</span></p>
-            <p><strong>Time of Data:</strong> <span id="time">-</span></p>
+            <p><strong>Last Updated:</strong> <span id="time">-</span></p>
         </div>
 
-        <h3>Technical Logs</h3>
         <pre id="output"></pre>
     </main>
 
