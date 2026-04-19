@@ -1,6 +1,5 @@
-/* General Layout */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
@@ -9,54 +8,31 @@ body {
     transition: background 0.3s, color 0.3s;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
+.container { max-width: 800px; margin: 0 auto; }
 
 .card {
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
+    background: #fff;
 }
 
-h1, h2 { color: #0056b3; }
-
-/* Skills Grid */
-.skills-grid {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
+.skills-grid { display: flex; gap: 10px; flex-wrap: wrap; }
 
 .skill-tag {
     background: #e9ecef;
     padding: 8px 15px;
     border-radius: 20px;
-    font-size: 0.9rem;
     font-weight: bold;
 }
 
-/* API Result Box */
-#api-result {
+.result-box {
     margin-top: 15px;
     padding: 15px;
     background: #f8f9fa;
-    border-radius: 5px;
     border-left: 5px solid #0056b3;
 }
-
-/* Dark Mode Classes */
-body.dark {
-    background-color: #1a1a1a;
-    color: #f4f4f4;
-}
-
-body.dark .card { border-color: #444; background-color: #252525; }
-body.dark h1, body.dark h2 { color: #4dabff; }
-body.dark .skill-tag { background: #444; color: #fff; }
-body.dark #api-result { background: #333; color: #fff; }
 
 button {
     padding: 10px 15px;
@@ -66,3 +42,11 @@ button {
     border: none;
     border-radius: 5px;
 }
+
+/* Dark Mode */
+body.dark { background-color: #1a1a1a; color: #f4f4f4; }
+body.dark .card { background-color: #252525; border-color: #444; }
+body.dark .result-box { background-color: #333; }
+body.dark .skill-tag { background: #444; color: #fff; }
+
+pre { background: #eee; padding: 10px; color: #333; overflow-x: auto; }
