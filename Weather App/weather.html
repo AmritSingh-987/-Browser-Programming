@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard - Amrit Singh</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+
+    <header class="container">
+        <h1>Weather Dashboard</h1>
+        <p>Real-time data from the Open-Meteo API.</p>
+        
+        <div class="button-group">
+            <button id="btnKuopio">Kuopio</button>
+            <button id="btnHelsinki">Helsinki</button>
+            <button id="btnOulu">Oulu</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="weatherBox" class="card">
+            <h2>Current Weather</h2>
+            <p><strong>City:</strong> <span id="city">-</span></p>
+            <p><strong>Temperature:</strong> <span id="temperature">-</span></p>
+            <p><strong>Wind Speed:</strong> <span id="wind">-</span></p>
+            <p><strong>Time of Data:</strong> <span id="time">-</span></p>
+        </div>
+
+        <h3>Technical Logs</h3>
+        <pre id="output"></pre>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
