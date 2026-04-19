@@ -38,3 +38,18 @@ input {
   padding: 10px 12px;
   width: 160px;
 }
+/* Style for completed items in Exercise 2 */
+li.done span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li {
+    list-style: none;
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
