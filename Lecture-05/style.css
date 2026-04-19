@@ -1,1 +1,46 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    line-height: 1.6;
+    padding: 20px;
+}
 
+/* Task 1: Skills Card Styling */
+.skills-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.skill-card {
+    background: #e0e0e0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Task 2: Projects Styling */
+.project-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #d65108;
+    background: #f9f9f9;
+}
+
+/* Task 3: Dark Mode Styles */
+body.dark {
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+}
+body.dark .skill-card {
+    background: #333;
+    color: #fff;
+}
+body.dark .project-item {
+    background: #252525;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
