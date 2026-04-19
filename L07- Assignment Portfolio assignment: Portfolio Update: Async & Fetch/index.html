@@ -1,12 +1,62 @@
-<section id="api-demo" class="card">
-    <h2>External Data Demo</h2>
-    <p class="hint">Fetch real-time data from a JSON API using asynchronous JavaScript.</p>
-    
-    <div class="row">
-        <button id="load-data-btn">Load Data</button>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Amrit Singh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Amrit Singh</h1>
+        <p><strong>IT Network Engineer | IoT Specialist | Savonia UAS</strong></p>
+        <button id="theme-toggle">Toggle Theme</button>
+    </header>
 
-    <div id="api-result">
-        <p>Click the button to load profile info.</p>
-    </div>
-</section>
+    <main class="container">
+        <section id="api-demo" class="card">
+            <h2>External Data Demo</h2>
+            <p class="hint">Fetch real-time data from a JSON API using asynchronous JavaScript.</p>
+            <div class="row">
+                <button id="load-data-btn">Load Data</button>
+            </div>
+            <div id="api-result">
+                <p>Click the button to load profile info.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">HTML</div>
+                <div class="skill-tag">CSS</div>
+                <div class="skill-tag">JavaScript</div>
+                <div class="skill-tag">Python</div>
+                <div class="skill-tag">IoT Systems</div>
+                <div class="skill-tag">Network Security</div>
+            </div>
+        </section>
+
+        <section id="projects" class="card">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>IoT Network Monitor</h3>
+                <p>A real-time dashboard for monitoring local IoT device traffic and security protocols.</p>
+                <a href="https://github.com/AmritSingh-987" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Automated Python Scraper</h3>
+                <p>A script designed to aggregate network vulnerability data from public databases.</p>
+                <a href="#">Placeholder Link</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <p>&copy; 2026 Amrit Singh</p>
+        <p id="last-updated"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
