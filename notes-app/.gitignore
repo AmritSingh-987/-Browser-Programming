@@ -1,0 +1,9 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore environment variables (Your Supabase password is here!)
+.env
+
+# Ignore OS-specific files
+.DS_Store
+thumbs.db
