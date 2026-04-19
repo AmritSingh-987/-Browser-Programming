@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Lecture – REST API Fetch</title>
-
-<link rel="stylesheet" href="exercise.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 7 – REST API Fetch</title>
+    <link rel="stylesheet" href="exercise.css">
 </head>
 <body>
 
-<h1>Lecture – REST API Fetch</h1>
+    <header class="container">
+        <h1>Lecture 7 – REST API Fetch</h1>
+        <p>This exercise loads user data from a public API and displays it dynamically.</p>
+        
+        <button id="btnLoadUsers">Load Users</button>
+    </header>
 
-<p>
-This exercise loads user data from a public API.
-</p>
+    <main class="container">
+        <h3>User List (DOM Output):</h3>
+        <ul id="userList"></ul>
 
-<button id="btnLoadUsers">Load Users</button>
+        <hr>
 
-<pre id="output"></pre>
+        <h3>Log Output (Pre-formatted):</h3>
+        <pre id="output"></pre>
+    </main>
 
-<script src="exercise.js"></script>
-
+    <script src="exercise.js"></script>
 </body>
 </html>
