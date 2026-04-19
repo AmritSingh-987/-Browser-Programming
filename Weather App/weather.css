@@ -89,3 +89,18 @@ pre {
     border-bottom: 1px solid rgba(0,0,0,0.05);
     padding-bottom: 5px;
 }
+/* Update these in your CSS file */
+body.cold {
+    background-color: #d1e9ff !important;
+    color: #003366 !important;
+}
+
+body.mild {
+    background-color: #fff4d1 !important;
+    color: #5c4a00 !important;
+}
+
+body.hot {
+    background-color: #ffe0b2 !important;
+    color: #bf360c !important;
+}
