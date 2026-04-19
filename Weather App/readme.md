@@ -25,8 +25,7 @@ This application is a dynamic weather dashboard that retrieves real-time meteoro
 **4. Why is it better to create one reusable function for all cities?** It is better for **maintainability and scalability**. Instead of writing 30 lines of code for every new city, we write the logic once. This makes it easier to fix bugs, update the API URL, or add 100 more cities by simply changing the function arguments.
 
 ## 📸 Dashboard Preview
-![Weather Dashboard Screenshot](weather_screenshot.png)  
-*(Note: Ensure your screenshot file is named `weather_screenshot.png` in this folder!)*
+![Weather Dashboard Screenshot](weather_screenshot.png)
 
 ---
 ### 🛠️ How to Use
