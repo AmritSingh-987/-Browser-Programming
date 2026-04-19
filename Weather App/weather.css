@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background-color 0.5s ease; /* Smooth color transition */
+}
+
+/* Extension 3 Backgrounds */
+body.cold {
+    background-color: #e0f7fa; /* Light blue for cold */
+}
+
+body.mild {
+    background-color: #fff9c4; /* Light yellow for mild */
+}
+
+.container { max-width: 600px; margin: 0 auto; }
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background: white; /* Keeps the card readable against the body background */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.button-group { margin-bottom: 20px; }
+
+button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover { background: #0056b3; }
+
+pre {
+    background: #333;
+    color: #0f0;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
