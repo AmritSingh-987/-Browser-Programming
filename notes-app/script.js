@@ -1,5 +1,5 @@
 // IMPORTANT: Change this to your Render URL after Step 8
-const API_URL = "http://localhost:3000"; 
+const API_URL = "https://notes-app-backend-2mjg.onrender.com";
 
 async function fetchNotes() {
     const res = await fetch(`${API_URL}/notes`);
