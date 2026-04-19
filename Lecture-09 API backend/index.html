@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Amrit's Backend Lab</title>
+  <style>
+    body { font-family: sans-serif; padding: 40px; background-color: #f4f4f9; }
+    .card { border: 1px solid #ccc; padding: 15px; margin: 10px 0; background: white; border-radius: 8px; }
+    button { padding: 10px 20px; cursor: pointer; background: #28a745; color: white; border: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Backend API Test</h1>
+  
+  <button onclick="fetchData('/api/message', 'msgOutput')">Get Message</button>
+  <div id="msgOutput" class="card">Data will appear here...</div>
 
+  <button onclick="fetchData('/api/student', 'studentOutput')">Get Student Info</button>
+  <div id="studentOutput" class="card">Info will appear here...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
