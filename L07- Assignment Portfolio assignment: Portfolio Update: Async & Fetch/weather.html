@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Amrit Singh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
 
+    <header>
+        <h1>Weather App</h1>
+        <nav>
+            <a href="index.html">← Back to Portfolio</a>
+        </nav>
+    </header>
+
+    <main class="card">
+        <p>Live data for <strong>Kuopio, Finland</strong> using Open-Meteo API.</p>
+        
+        <div class="row">
+            <button id="btnKuopio">Check Kuopio Weather</button>
+        </div>
+
+        <div id="weatherBox" class="result-box">
+            <h3>Current Conditions</h3>
+            <p><strong>City:</strong> <span id="city">-</span></p>
+            <p><strong>Temperature:</strong> <span id="temperature">-</span></p>
+            <p><strong>Wind Speed:</strong> <span id="wind">-</span></p>
+        </div>
+
+        <hr>
+        <h4>Technical Logs</h4>
+        <pre id="output"></pre>
+    </main>
+
+    <script src="weather.js"></script>
+</body>
+</html>
